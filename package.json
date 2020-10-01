@@ -9,7 +9,9 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build -- --public-url='/goit-js-hw-09-parcel'",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
