@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-09-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salimyaro/goit-js-hw-09-parcel.git"
+  },
+  "author": "Salimov <3508880@i.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salimyaro/goit-js-hw-09-parcel/issues"
+  },
+  "homepage": "https://github.com/Salimyaro/goit-js-hw-09-parcel#readme"
+}
