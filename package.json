@@ -5,12 +5,14 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.4.3"
   },
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "predeploy": "npm run build -- --public-url='/goit-js-hw-09-parcel'",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-09-parcel/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
